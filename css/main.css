@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+.logo-pinterest img{
+  width: 50px;
+}
+
+div {
+  box-sizing: border-box;
+  color: black;
+  display: inline-block;
+  float: right;
+  width: 180px;
+  height: 60px;
+  padding: 20px;
+
+}
+
+section {
+background-color: pink;
+}
