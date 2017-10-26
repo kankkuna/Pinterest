@@ -1,34 +1,29 @@
-body {
-  display: block;
-  margin: 0;
-  padding: 0;
+*{
+  box-sizing: border-box;
+  font-family:'Source Sans Pro', sans-serif;
 }
+
+body {
+  margin: 0px;
+}
+
+/*Styles for header*/
 
 header {
-  position: fixed;
-  background-color: white;
-
-}
-.menu ul{
-padding: 10px 0;
-width: 100%;
-margin: 0;
-border-bottom: 1px solid #d3d3d3;
-display: inline-block;
-text-align: center;
+  background-color: rgba(98, 19, 59, 0.73);
 }
 
-.menu li {
-font-size: 16px;
-font-weight: 700;
-padding: 0 5px;
-display: inline-block;
+.search-filter {
+  cursor: pointer;
+  padding: 10px 10px 10px 0;
+}
+.search-filter span {
+  font-weight: 700px;    
+  }
+.filter-menu {
+  padding: 10px 0;
 }
 
-header .li{
-  color: red;
-}
+.filter-menu li {
 
-.menu2 {
-  display: inline-block;
 }
