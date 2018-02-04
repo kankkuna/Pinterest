@@ -1,34 +1,16 @@
 body {
-  display: block;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  display: inline-block;
 }
-
 header {
   position: fixed;
-  background-color: white;
-
-}
-.menu ul{
-padding: 10px 0;
-width: 100%;
-margin: 0;
-border-bottom: 1px solid #d3d3d3;
-display: inline-block;
-text-align: center;
+  display: inline-block;
 }
 
-.menu li {
-font-size: 16px;
-font-weight: 700;
-padding: 0 5px;
-display: inline-block;
+li {
+  display: inline-block;
 }
 
-header .li{
-  color: red;
-}
-
-.menu2 {
+ul div {
   display: inline-block;
 }
