@@ -5,8 +5,8 @@ Usando las herramientas básicas de HTML, CSS y obteniendo íconos de [Font Awes
 
 Se busca un resultado similar a éste:
 
-![Sin titulo](pictures/avatar.png)
+![Sin titulo](docs/pint-original.png)
 
 Luego del trabajo realizado el resultado obtenido es:
 
-![Sin titulo](pictures/avatar.png)
+![Sin titulo](docs/pint-replica.png)

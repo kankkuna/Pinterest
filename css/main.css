@@ -1,16 +1,123 @@
 body {
-  box-sizing: border-box;
-  display: inline-block;
+  font-family: 'Mada', sans-serif;
 }
+
 header {
-  position: fixed;
-  display: inline-block;
+  font-family: 'Mada', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-  display: inline-block;
+  display: inline;
+}
+
+ul {
+  margin: 4px;
+  padding: 0;
 }
 
 ul div {
   display: inline-block;
+}
+
+br {
+  border-style: none;
+}
+
+.fa-pinterest {
+  color: #BD081C;
+}
+
+.fa-bars, .fa-comment-alt, .fa-ellipsis-h {
+  margin-left: 20px;
+}
+
+.fa-search, .fa-times, .fa-bars, .fa-comment-alt, .fa-ellipsis-h{
+  color: #B5B5B5;
+}
+
+input {
+  border-style: none;
+  background-color: #EFEFEF;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+button {
+  border-style: none;
+  background-color: white;
+}
+
+.searching {
+  background-color: #EFEFEF;
+  width: 70%;
+  height: 40px;
+  margin-left: 15px;
+
+}
+
+.img-user {
+  border-radius: 25px;
+  width: 30px;
+  background-color: pink;
+}
+
+.fa-search {
+  margin-left: 15px;
+}
+
+.fa-times {
+  margin-left: 150px;
+}
+
+.fa-chevron-down {
+  margin-left: 10px;
+}
+
+.pines {
+  background-color: #EFEFEF;
+}
+
+.option {
+  background-image: url(../assets/images/luces.jpg);
+  background-position: center;
+  border-radius: 10px;
+  width: 110px;
+  text-align: center;
+  margin: 2.5px;
+}
+
+p {
+  text-align: center;
+}
+
+.foto, .foto1{
+  display: inline-block;
+  position: relative;
+  border-radius: 17px;
+  background-color: #DAE6F1;
+  margin-left: 5px;
+  border-color: black;
+}
+
+.img-small {
+  width: 250px;
+  height: 300px;
+  margin-top: 2px;
+
+}
+
+.img-medium {
+  margin-top: 2px;
+  width: 200px;
+  height: 700px;
+}
+
+.img-large {
+  margin-top: 2px;
+  width: 500px;
+  height: 700px;
 }
